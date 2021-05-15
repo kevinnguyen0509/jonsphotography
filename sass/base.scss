@@ -1,0 +1,24 @@
+:root {
+  --color-light-tan: #fefefe;
+  --color-medium-grey: #efefef;
+  --color-dark-tan: #e0d9d0;
+}
+
+body,
+html {
+  background-image: linear-gradient(
+    to bottom right,
+    var(--color-light-tan),
+    var(--color-medium-grey)
+  );
+
+  color: #efefef;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hidden {
+  display: none;
+}

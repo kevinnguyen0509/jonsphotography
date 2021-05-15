@@ -1,3 +1,38 @@
-body {
-  background-color: #55c57a;
-  color: white; }
+:root {
+  --color-light-tan: #fefefe;
+  --color-medium-grey: #efefef;
+  --color-dark-tan: #e0d9d0; }
+
+body,
+html {
+  background-image: linear-gradient(to bottom right, var(--color-light-tan), var(--color-medium-grey));
+  color: #efefef;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.hidden {
+  display: none; }
+
+.container-fluid {
+  padding: 0; }
+
+.jumbotron {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)), url("https://cdn.naturettl.com/wp-content/uploads/2020/02/05200812/12-best-landscape-photography-locations-in-canada-800x533.jpg?p=18252");
+  background-size: cover;
+  background-position: 0 50%;
+  background-repeat: no-repeat;
+  margin: 0; }
+
+.navbar {
+  background-color: #fff;
+  box-shadow: 2px 1px 1px 1px #d4d2d2;
+  padding-left: 40%;
+  padding-right: auto; }
+
+.navbar .container {
+  text-align: center; }
+
+.lastName {
+  color: red; }
