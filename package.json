@@ -4,8 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass sass/main.scss css/style.css -w",
+    "devserver": "live-server --port=8090",
+    "start": "npm-run-all --parallel devserver compile:sass"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Kevin Nguyen",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.0"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "npm-run-all": "^4.1.5"
+  }
 }
