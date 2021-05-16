@@ -37,6 +37,9 @@ html {
 .img-containers {
   padding: 2px 2px; }
 
+.btn {
+  border-radius: 0px; }
+
 .jumbotron {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)), url("https://cdn.naturettl.com/wp-content/uploads/2020/02/05200812/12-best-landscape-photography-locations-in-canada-800x533.jpg?p=18252");
   background-size: cover;
@@ -99,6 +102,17 @@ html {
   .contact-icons-container img {
     width: 10%; }
 
+#imageModal {
+  padding-top: 5%; }
+
+.modal-image-container {
+  max-width: 1000px;
+  /* New width for default modal */
+  height: 0; }
+
+.wildlife-img-modal {
+  height: auto; }
+
 /************nav********************/
 li {
   cursor: pointer; }
@@ -112,3 +126,6 @@ li {
   @media only screen and (max-width: 56.25em) {
     .navbar-brand {
       width: 35%; } }
+
+.img-fluid {
+  cursor: pointer; }

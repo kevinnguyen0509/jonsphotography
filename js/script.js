@@ -10,6 +10,7 @@ let wildLifeButton = document.querySelector(".wildlife");
 let sportsButton = document.querySelector(".sports");
 let portraitButton = document.querySelector(".portraits");
 let allArrayButton = document.querySelector(".allPictures");
+let imgModalBody = document.querySelector(".modal-body-image");
 
 sportsButton.addEventListener("click", function () {
   portfolioDisplay.innerHTML = "";
@@ -35,11 +36,30 @@ wildLifeButton.addEventListener("click", function () {
       `<div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 img-containers">
       <img
         src="${wildLife[i].img}"
-        class="img-fluid"
+        class="img-fluid wildlife-img"
         alt="Responsive image"
+        data-toggle="modal"
+        data-target="#imageModal"
       />
     </div>`
     );
+  }
+  let wildlifeImg = document.querySelectorAll(".wildlife-img");
+
+  for (let i = 0; i < wildLife.length; i++) {
+    wildlifeImg[i].addEventListener("click", function () {
+      imgModalBody.innerHTML = `
+    
+      <img
+        src="${wildlifeImg[i].src}"
+        class="img-fluid wildlife-img wildlife-img-modal"
+        alt="Responsive image"
+        data-toggle="modal"
+        data-target="#imageModal"
+      />
+    `;
+      console.log(imgModalBody);
+    });
   }
 });
 

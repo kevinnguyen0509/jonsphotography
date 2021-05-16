@@ -76,7 +76,16 @@
     width: 10%;
   }
 }
-
+#imageModal {
+  padding-top: 5%;
+}
+.modal-image-container {
+  max-width: 1000px; /* New width for default modal */
+  height: 0;
+}
+.wildlife-img-modal {
+  height: auto;
+}
 /************nav********************/
 li {
   cursor: pointer;
@@ -94,4 +103,8 @@ li {
   @media only screen and (max-width: $bp-medium) {
     width: 35%;
   }
+}
+
+.img-fluid {
+  cursor: pointer;
 }

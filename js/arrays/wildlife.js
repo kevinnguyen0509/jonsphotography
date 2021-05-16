@@ -9,10 +9,10 @@ let wildLife = [
     img: "https://images.theconversation.com/files/327696/original/file-20200414-117573-1mx8117.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1000&fit=clip",
   },
   {
-    img: "https://www.nm.org//-/media/northwestern/healthbeat/images/healthy-tips/fitness/nm-sports-for-life-feature.jpg",
+    img: "https://scx2.b-cdn.net/gfx/news/hires/2019/wildlife.jpg",
   },
   {
-    img: "https://lh3.googleusercontent.com/proxy/FkH_USODC0QctxxT_0uOrd4zpy9IkN55JWju4WRaX6NG76Hjmb5RSI0t8LVZEmmCxeju3qhLB02G69UWX-8WCm7YylopzzWangQVnMgBGyHaxlPX3y__NEqFd8i4obA",
+    img: "https://www.commondreams.org/sites/default/files/styles/cd_large/public/views-article/bears.jpeg?itok=ZdsKmoJp",
   },
   {
     img: "https://www.treadright.org/wp-content/uploads/2019/02/AdobeStock_33313240-2.jpg",
