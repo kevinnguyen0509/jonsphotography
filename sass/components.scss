@@ -10,9 +10,9 @@
 
 .navbar {
   background-color: #fff;
-  box-shadow: 2px 1px 1px 1px #d4d2d2;
-  padding-left: 40%;
 
+  padding-left: 40%;
+  box-shadow: 2px 0px 5px #8888;
   padding-right: auto;
 }
 
@@ -20,6 +20,78 @@
   text-align: center;
 }
 
-.lastName {
-  color: red;
+.modal {
+  color: #000;
+}
+.about-me-img-container {
+  width: 100%;
+}
+.modal-header {
+  padding: 0;
+}
+
+.modal-body {
+  display: flex;
+  justify-content: center;
+}
+
+.aboutme-name::after {
+  display: block;
+  width: 50%;
+  height: 2px;
+  content: "";
+
+  margin: 20px 30%;
+  background-color: orangered;
+}
+
+.aboutme-paragraph {
+  padding: 0 50px;
+}
+
+.modal-footer {
+  display: flex;
+
+  padding: 25px 50px;
+}
+.modal-content {
+  border-radius: 0;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  a {
+    width: 10%;
+  }
+}
+
+.contact-icons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  img {
+    width: 10%;
+  }
+}
+
+/************nav********************/
+li {
+  cursor: pointer;
+}
+
+.navbar-brand {
+  width: 5%;
+  a img {
+    width: 100px;
+  }
+
+  .social-media-icons {
+    width: 100px;
+  }
+  @media only screen and (max-width: $bp-medium) {
+    width: 35%;
+  }
 }
