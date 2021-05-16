@@ -18,7 +18,7 @@ let portraits = [
     img: "https://www.lookslikefilm.com/wp-content/uploads/2019/04/Victoria-Andrews-www.instagram.comvictoriaandrewsphotography.jpg",
   },
   {
-    img: "https://static.independent.co.uk/s3fs-public/thumbnails/image/2020/07/25/12/stop-the-wildlife-trade-shaaz-jung-1.jpg?width=640&height=614&fit=bounds&format=pjpg&crop=16%3A9%2Coffset-y0.5&auto=webp&quality=75",
+    img: "https://photographylife.com/wp-content/uploads/2014/02/Nikon-Df-Image-Sample-8.jpg",
   },
   {
     img: "https://s3.amazonaws.com/pixpa.com/com/articles/1525891879-886386-sam-burriss-457746-unsplashjpg.png",
